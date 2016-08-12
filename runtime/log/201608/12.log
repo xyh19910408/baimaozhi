@@ -1,0 +1,1256 @@
+[ 2016-08-12T14:09:45+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/
+[ log ] localhost/tp5/baimaozhi/public/ [运行时间：0.036450s][吞吐率：27.43req/s] [内存消耗：767.15kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T14:10:10+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/
+[ log ] localhost/tp5/baimaozhi/public/ [运行时间：0.057665s][吞吐率：17.34req/s] [内存消耗：875.27kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [4]语法错误: unexpected end of file, expecting function (T_FUNCTION)[F:\Demo\tp5\baimaozhi\application\index\controller\Index.php:10]
+
+[ 2016-08-12T14:11:24+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/
+[ log ] localhost/tp5/baimaozhi/public/ [运行时间：0.016643s][吞吐率：60.09req/s] [内存消耗：766.09kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T14:11:58+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/index
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/index [运行时间：0.011566s][吞吐率：86.46req/s] [内存消耗：766.13kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T14:27:44+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course/index/index
+[ log ] localhost/tp5/baimaozhi/public/course/index/index [运行时间：0.015492s][吞吐率：64.55req/s] [内存消耗：766.16kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\course\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T14:47:05+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/parttern/index/index
+[ log ] localhost/tp5/baimaozhi/public/parttern/index/index [运行时间：0.018311s][吞吐率：54.61req/s] [内存消耗：856.86kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'parttern',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T14:47:14+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/index
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/index [运行时间：0.018046s][吞吐率：55.41req/s] [内存消耗：766.16kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T15:46:00+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.020909s][吞吐率：47.83req/s] [内存消耗：872.72kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 19
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\InterpreterContext' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:47:10+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.019931s][吞吐率：50.17req/s] [内存消耗：872.05kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 19
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\logic\InterpreterContext' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:47:21+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.019655s][吞吐率：50.88req/s] [内存消耗：872.09kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 19
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\logic\Expression\InterpreterContext' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:47:43+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.020047s][吞吐率：49.88req/s] [内存消耗：872.09kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 19
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\InterpreterContext' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:47:55+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.019394s][吞吐率：51.56req/s] [内存消耗：873.82kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [4]语法错误: unexpected 'class' (T_CLASS), expecting ',' or ';'[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:6]
+
+[ 2016-08-12T15:48:00+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.020763s][吞吐率：48.16req/s] [内存消耗：872.09kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 19
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\InterpreterContext' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:48:04+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.017877s][吞吐率：55.94req/s] [内存消耗：873.94kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [4]语法错误: unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR)[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:6]
+
+[ 2016-08-12T15:48:11+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.018743s][吞吐率：53.35req/s] [内存消耗：872.09kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 19
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\InterpreterContext' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:49:05+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.023060s][吞吐率：43.36req/s] [内存消耗：872.10kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 19
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\InterpreterContext' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:49:05+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.020326s][吞吐率：49.20req/s] [内存消耗：872.10kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 19
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\InterpreterContext' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:49:06+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.020854s][吞吐率：47.95req/s] [内存消耗：872.10kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 19
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\InterpreterContext' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:50:02+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.019650s][吞吐率：50.89req/s] [内存消耗：879.58kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Cannot instantiate abstract class app\pattern\logic\Expression[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:50:36+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.019883s][吞吐率：50.29req/s] [内存消耗：872.42kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\LiteralExpression' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:50:36+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.018528s][吞吐率：53.97req/s] [内存消耗：872.42kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\LiteralExpression' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:50:36+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.018427s][吞吐率：54.27req/s] [内存消耗：872.42kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\LiteralExpression' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:50:37+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.018524s][吞吐率：53.98req/s] [内存消耗：872.42kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\LiteralExpression' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:50:37+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.018715s][吞吐率：53.43req/s] [内存消耗：872.42kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\LiteralExpression' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:50:37+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.018636s][吞吐率：53.66req/s] [内存消耗：872.42kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 13 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Class 'app\pattern\controller\LiteralExpression' not found[F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php:15]
+
+[ 2016-08-12T15:52:35+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.021614s][吞吐率：46.27req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:21+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.032877s][吞吐率：30.42req/s] [内存消耗：876.15kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [2]assert(): Assertion failed[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:39+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.020735s][吞吐率：48.23req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:39+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.020738s][吞吐率：48.22req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:40+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.020425s][吞吐率：48.96req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:40+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.024492s][吞吐率：40.83req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:40+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.019934s][吞吐率：50.17req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:40+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.020318s][吞吐率：49.22req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:40+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.020895s][吞吐率：47.86req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:41+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.021443s][吞吐率：46.64req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:41+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.021166s][吞吐率：47.25req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:41+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.021121s][吞吐率：47.35req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:41+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.021144s][吞吐率：47.29req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:42+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.020891s][吞吐率：47.87req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:54:42+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.021313s][吞吐率：46.92req/s] [内存消耗：880.92kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [1]Call to undefined function app\pattern\logic\asset()[F:\Demo\tp5\baimaozhi\application\pattern\logic\Expression.php:12]
+
+[ 2016-08-12T15:57:46+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.021322s][吞吐率：46.90req/s] [内存消耗：875.95kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [8]Undefined property: app\pattern\logic\LiteralExpression::$getKey[F:\Demo\tp5\baimaozhi\application\pattern\logic\InterpreterContext.php:13]
+
+[ 2016-08-12T15:58:07+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.016810s][吞吐率：59.49req/s] [内存消耗：775.59kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T15:58:08+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.015362s][吞吐率：65.10req/s] [内存消耗：775.59kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T15:58:09+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.014713s][吞吐率：67.97req/s] [内存消耗：775.59kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T15:58:09+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.014575s][吞吐率：68.61req/s] [内存消耗：775.59kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T15:58:24+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.016149s][吞吐率：61.92req/s] [内存消耗：775.69kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:05:00+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.015941s][吞吐率：62.73req/s] [内存消耗：775.69kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:05:00+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.014219s][吞吐率：70.33req/s] [内存消耗：775.69kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:05:01+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.014681s][吞吐率：68.11req/s] [内存消耗：775.69kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:05:01+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.013660s][吞吐率：73.21req/s] [内存消耗：775.69kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:05:01+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.014378s][吞吐率：69.55req/s] [内存消耗：775.69kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:05:30+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/pattern/index/expression
+[ log ] localhost/tp5/baimaozhi/public/pattern/index/expression [运行时间：0.015827s][吞吐率：63.18req/s] [内存消耗：775.69kb] [文件加载：26]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pattern',
+    1 => 'index',
+    2 => 'expression',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method expression ] {
+  @@ F:\Demo\tp5\baimaozhi\application\pattern\controller\Index.php 14 - 20
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:10:03+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/admin/index/index
+[ log ] localhost/tp5/baimaozhi/public/admin/index/index [运行时间：0.014594s][吞吐率：68.52req/s] [内存消耗：766.16kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\admin\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
