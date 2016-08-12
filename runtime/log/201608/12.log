@@ -1254,3 +1254,322 @@
   ),
 )
 
+[ 2016-08-12T16:37:16+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/
+[ log ] localhost/tp5/baimaozhi/public/ [运行时间：0.016040s][吞吐率：62.34req/s] [内存消耗：766.07kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:37:17+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/
+[ log ] localhost/tp5/baimaozhi/public/ [运行时间：0.014066s][吞吐率：71.09req/s] [内存消耗：766.09kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:37:21+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/admin
+[ log ] localhost/tp5/baimaozhi/public/admin [运行时间：0.012705s][吞吐率：78.71req/s] [内存消耗：766.08kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\admin\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:54:51+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course
+[ log ] localhost/tp5/baimaozhi/public/course [运行时间：0.018565s][吞吐率：53.86req/s] [内存消耗：857.79kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:58:33+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course/index/index
+[ log ] localhost/tp5/baimaozhi/public/course/index/index [运行时间：0.020244s][吞吐率：49.40req/s] [内存消耗：858.41kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T16:59:10+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course/index/index
+[ log ] localhost/tp5/baimaozhi/public/course/index/index [运行时间：0.014442s][吞吐率：69.24req/s] [内存消耗：766.15kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\course\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T17:00:58+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course
+[ log ] localhost/tp5/baimaozhi/public/course [运行时间：0.014281s][吞吐率：70.02req/s] [内存消耗：766.06kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\course\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T17:01:23+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course/view
+[ log ] localhost/tp5/baimaozhi/public/course/view [运行时间：0.016941s][吞吐率：59.03req/s] [内存消耗：858.38kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => 'view',
+    2 => NULL,
+  ),
+)
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T17:01:29+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course/view/index
+[ log ] localhost/tp5/baimaozhi/public/course/view/index [运行时间：0.017423s][吞吐率：57.40req/s] [内存消耗：858.42kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => 'view',
+    2 => 'index',
+  ),
+)
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T17:01:33+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course/View/index
+[ log ] localhost/tp5/baimaozhi/public/course/View/index [运行时间：0.017586s][吞吐率：56.86req/s] [内存消耗：858.42kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => 'View',
+    2 => 'index',
+  ),
+)
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T17:01:44+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course/View/index
+[ log ] localhost/tp5/baimaozhi/public/course/View/index [运行时间：0.013158s][吞吐率：76.00req/s] [内存消耗：766.16kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => 'View',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\course\controller\View.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T17:01:50+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course/view/index
+[ log ] localhost/tp5/baimaozhi/public/course/view/index [运行时间：0.012529s][吞吐率：79.81req/s] [内存消耗：766.16kb] [文件加载：23]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => 'view',
+    2 => 'index',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ F:\Demo\tp5\baimaozhi\application\course\controller\View.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
+[ 2016-08-12T17:04:46+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course/view/newView
+[ log ] localhost/tp5/baimaozhi/public/course/view/newView [运行时间：0.019954s][吞吐率：50.12req/s] [内存消耗：873.75kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => 'view',
+    2 => 'newView',
+  ),
+)
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [4]语法错误: unexpected '/', expecting ',' or ';'[F:\Demo\tp5\baimaozhi\application\course\controller\View.php:4]
+
+[ 2016-08-12T17:05:09+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course/view/newView
+[ log ] localhost/tp5/baimaozhi/public/course/view/newView [运行时间：0.022012s][吞吐率：45.43req/s] [内存消耗：1,069.34kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => 'view',
+    2 => 'newView',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method newView ] {
+  @@ F:\Demo\tp5\baimaozhi\application\course\controller\View.php 13 - 17
+}
+
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] F:\Demo\tp5\baimaozhi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+[ error ] [0]模板文件不存在:F:\Demo\tp5\baimaozhi\public/../application/course\view\view\newView.html[F:\Demo\tp5\baimaozhi\thinkphp\library\think\view\driver\Think.php:77]
+
+[ 2016-08-12T17:05:50+08:00 ] ::1 ::1 GET /tp5/baimaozhi/public/course/view/newView
+[ log ] localhost/tp5/baimaozhi/public/course/view/newView [运行时间：0.020190s][吞吐率：49.53req/s] [内存消耗：1,117.84kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'course',
+    1 => 'view',
+    2 => 'newView',
+  ),
+)
+[ info ] [ RUN ] Method [ <user> public method newView ] {
+  @@ F:\Demo\tp5\baimaozhi\application\course\controller\View.php 13 - 17
+}
+
+[ info ] [ VIEW ] F:\Demo\tp5\baimaozhi\public/../application/course\view\view\newView.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => 'F:\\Demo\\tp5\\baimaozhi\\public/..\\runtime\\log\\',
+  'level' => 
+  array (
+  ),
+)
+
