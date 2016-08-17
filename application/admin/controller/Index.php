@@ -1,10 +1,17 @@
 <?php
 namespace app\admin\controller;
 
-class Index
+use app\admin\controller\Base;
+
+class Index extends Base
 {
     public function index()
     {
-        return 'admin';
+    	$this->assign('bjui_static_dir', config('bjui_static_dir'));//静态资源存放目录
+        return $this->fetch();
+    }
+
+    public function welcome(){
+    	return $this->fetch();
     }
 }
