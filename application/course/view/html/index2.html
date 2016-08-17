@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>html5</title>
+<!--[if lt IE9]>
+	<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+<body>
+
+<div style="width:530px;margin:10px auto">
+<div id="canvasDiv"></div>
+</div>
+
+<script>
+
+var canvas;
+var canvasWidth = 490;
+var canvasHeight = 220;
+var context;
+
+function prepareCanvas(){
+	var canvasDiv = document.getElementById('canvasDiv');
+	canvas = document.createElement('canvas');
+	canvas.setAttribute('width', canvasWidth);
+	canvas.setAttribute('height', canvasHeight);
+	canvas.setAttribute('id', 'canvas');
+	canvasDiv.appendChild(canvas);
+	if(typeof G_vmlCanvasManager != 'undefined')
+		canvas = G_vmlCanvasManager.initElement(canvas);
+	context = canvas.getContext("2d");
+
+	crayonImage.onload = function(){ resourceLoaded();};
+	crayonImage.src = "images/crayon-outline.png";
+	markerImage.onload = function(){ resourceLoaded();};
+	markerImage.src = "images/marker-outline.png";
+	eraserImage.onload = function(){ resourceLoaded();};
+	eraserImage.src = "images/eraser-outline.png";
+	crayonBackImage.onload = function(){ resourceLoaded();};
+
+}
+
+prepareCanvas();
+</script>
+
+</body>
+</html>

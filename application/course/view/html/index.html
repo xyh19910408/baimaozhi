@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html manifest="demo.appcache">
+<head>
+	<meta charset="utf-8" />
+	<title>html5</title>
+	<!--[if lt IE9]>
+		<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+
+	<script>
+		if(typeof(Storage) === "undefined"){
+			alert('不支持');
+		}
+	</script>
+</head>
+<body>
+	<div><span id="result"></span></div>
+	<canvas id="myCanvas" width="200" height="100"></canvas>
+	hallo world!
+
+	<script>
+		localStorage.lastname = 'Smith';
+		document.getElementById('result').innerHTML = 'Last name: ' + localStorage.lastname;
+	</script>
+</body>
+</html>
