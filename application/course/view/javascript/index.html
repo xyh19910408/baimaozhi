@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>javascript</title>
+</head>
+<body>
+	<p id="intro" class="intro">hallo world!</p>
+	<img id="image" src="" alt="图片" />
+	<button type="button" onclick="document.getElementById('intro').style.color='red'">红色</button>
+	<h1 onclick="changetext(this)">点击文本!</h1>
+	<script>
+		var x = document.getElementById("intro");
+		console.log(x);
+		var y = document.getElementsByClassName("intro");
+		console.log(y);
+		var z = document.getElementsByTagName("p");
+		console.log(z);
+
+		document.write(Date());
+		document.getElementById("intro").innerHTML = "新文本!";
+		x.innerHTML = "新标题!";
+
+		document.getElementById('image').alt = '没有图片';
+
+		document.getElementById("intro").style.color = "blue";
+
+		function changetext(id){
+			id.innerHTML = "Ooops!";
+		}
+	</script>
+</body>
+</html>
