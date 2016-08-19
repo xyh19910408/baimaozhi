@@ -5,7 +5,7 @@ class Arrays
 {
     public function index()
     {
-    	$cars = array('a'=>100, 'b'=>120, 'c'=>140,  'C'=>160, 'D'=>array(1000));
+    	$cars = array('a'=>100, 'b'=>120, 'c'=>140,  'C'=>160, 'D'=>array(180), 'E'=>200);
     	var_dump($cars);
     	echo '<br />';
     	$arrlength = count($cars);
@@ -43,6 +43,9 @@ class Arrays
     	echo '<br />';
     	print_r(array_flip($cars));
     	echo '<br/>';
+    	print_r(array_key_exists('10', $arr1));
+    	echo '<br/>';
+    	print_r(array_keys($arr1));
         echo 'index';
     }
 }
