@@ -14,4 +14,17 @@ class Index extends Base
     public function welcome(){
     	return $this->fetch();
     }
+
+    //登陆
+    public function login()
+    {
+    	$this->assign('public_static_dir', config('public_static_dir'));//public资源存放目录
+    	return $this->fetch();
+    }
+
+    //验证码
+    public function vertify()
+    {
+
+    }
 }

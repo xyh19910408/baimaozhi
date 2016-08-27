@@ -1,0 +1,31 @@
+<div class="bjui-pageContent">
+    <form action="{:url('admin/adminEdit')}" method="post" data-toggle="validate" data-alertmsg="false">
+    	<input type="hidden" name="admin_id" value="{$data_info.admin_id}">
+    	<table class="table table-condensed table-hover" width="100%">
+            <tbody>
+				<tr>
+					<td>
+						<label for="admin_username" class="control-label x85">{$Think.lang.admin_username}：</label>
+						{empty name="data_info.admin_id"}
+						<input type="text" name="admin_username" id="admin_username" value="{$data_info.admin_username}" data-rule="required">
+						{else /}
+						{$data_info.admin_username}
+						{/empty}
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="admin_password" class="control-label x85">{$Think.lang.admin_password}：</label>
+						<input type="password" name="admin_password" id="admin_password" value="">
+					</td>
+				</tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+<div class="bjui-pageFooter">
+    <ul>
+        <li><button type="button" class="btn-close" data-icon="close">{$Think.lang.cancel}</button></li>
+        <li><button type="submit" class="btn-default" data-icon="save">{$Think.lang.save}</button></li>
+    </ul>
+</div>
