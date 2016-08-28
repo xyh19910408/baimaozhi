@@ -14,9 +14,14 @@ return [
 	'app_trace'                 =>  true,
 
     //设置session
-    'session'                => [
+    'session'                   => [
         'prefix'         => 'admin',
         'type'           => '',
         'auto_start'     => true,
     ],
+
+    // 过滤不需要登陆的行为
+    'no_login_behavior'          => ['index/login','index/logout'],
+    //需要跳转登陆不弹框的行为
+    'redirect_login_behavior'    => ['index/index'],
 ];

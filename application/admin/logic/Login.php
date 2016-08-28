@@ -53,4 +53,10 @@ class Login
 		}
 		return session('login_info');
 	}
+
+	//退出登录
+	public function adminLogout(){
+		session('login_info', null);
+		return true;
+	}
 }
