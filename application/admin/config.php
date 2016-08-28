@@ -12,4 +12,11 @@ return [
 
     // 开启应用Trace调试
 	'app_trace'                 =>  true,
+
+    //设置session
+    'session'                => [
+        'prefix'         => 'admin',
+        'type'           => '',
+        'auto_start'     => true,
+    ],
 ];

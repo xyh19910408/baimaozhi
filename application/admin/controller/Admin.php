@@ -14,7 +14,7 @@ class Admin extends Base
         $order = $page = $where = null;
         //获取列表页表单中的搜索参数
         list($page_form, $order, $page) = $this->getPageForm($this->default_admin);
-        $AdminLogic = $this->model('Admin');
+        $AdminLogic = model_logic('Admin');
         //获取搜索条件
         $where = $AdminLogic->getWhere($page_form);
         //获取表数据列表
@@ -32,7 +32,7 @@ class Admin extends Base
     public function adminEdit($id = '')
     {
         $params = $code = $where = null;
-        $AdminLogic = $this->model('Admin');
+        $AdminLogic = model_logic('Admin');
     	if($this->request->isPost()){
     		$params = $this->request->post();
             $code = $AdminLogic->save($params);
@@ -47,7 +47,7 @@ class Admin extends Base
 
     //删除
     public function adminDel($id = ''){
-        $AdminLogic = $this->model('Admin');
+        $AdminLogic = model_logic('Admin');
         $code = $AdminLogic->del($id);
         return get_ajax_arr($code, $this->admin_navid, $code, 2);
     }

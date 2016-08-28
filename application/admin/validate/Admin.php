@@ -23,7 +23,7 @@ class Admin extends Validate
         'admin_time.require'           =>  '11007',
         'admin_time.max'               =>  '11008',
         'admin_state.require'          =>  '11009',
-        'admin_state.max'              =>  '110010',
+        'admin_state.max'              =>  '11010',
     ];
 
     protected $scene = [

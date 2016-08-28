@@ -1,16 +1,67 @@
 <!DOCTYPE html>
 <html>
-	<head>
-    	<meta charset="UTF-8">
-    	<title>后台登陆</title>
-    	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    </head>
-  	<body>
-  		<div>用户名：&nbsp;<input type="text" name="username" id="username" /></div>
-  		<div>密码：&nbsp;&nbsp;<input type="password" name="password" id="password" /></div>
-  		<div>
-  			验证码：&nbsp;<input style="width: 135px" type="text" name="vertify" />
-  			<img id="imgVerify" style="cursor:pointer;" src="{:url('index/vertify')}" onclick="fleshVerify();"/></div>
-  		<div><button type="button" onclick="checkLogin()">立即登陆 </button></div>
-  	</body>
+<head>
+	<meta charset="UTF-8">
+	<title>{$Think.lang.background_landing}</title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+</head>
+<body>
+	<div>{$Think.lang.user_name}：&nbsp;<input type="text" name="username" id="username" value="admin" /></div>
+	<div>{$Think.lang.password}：&nbsp;&nbsp;<input type="password" name="password" id="password" value="123456" /></div>
+	<div>
+		<img id="imgVerify" style="cursor:pointer;" src="{:captcha_src()}" onclick="fleshVerify();"/>
+	</div>
+	<div>
+		{$Think.lang.verification_code}：&nbsp;<input style="width: 135px" type="text" name="vertify" id="vertify" />
+	</div>
+	<div id="message"></div>
+	<div><button type="button" onclick="checkLogin()">{$Think.lang.landing} </button></div>
+	
+	<script src="../../{$bjui_static_dir}js/jquery-1.11.3.min.js"></script>
+	<script>
+		function fleshVerify(){
+          	//重载验证码
+          	$('#imgVerify').attr('src', '{:captcha_src()}');
+     	}
+
+     	//登陆
+     	function checkLogin(){
+     		var message = $('#message');
+     		var username = $('input[name=username]').val();
+     		if(username == ''){
+     			message.html('{$Think.lang.10007}');
+     			return ;
+     		}
+     		var password = $('input[name=password]').val();
+     		if(password == ''){
+     			message.html('{$Think.lang.10008}');
+     			return ;
+     		}
+     		var vertify = $('input[name=vertify]').val();
+     		if(vertify.length !=4){
+     			message.html('{$Think.lang.10009}');
+     			return ;
+     		}
+
+     		$.ajax({
+	  			url:'{:url("Index/login", ["t"=>"1"], false)}'+Math.random(),
+				type:'post',
+				dataType:'json',
+				data:{username:username,password:password,vertify:vertify},
+				success:function(res){
+					console.log(res);
+					if(res.statusCode == 200){
+				     	top.location.href = res.data;
+					}else{
+						message.html(res.message);
+						fleshVerify();
+					}
+				},
+				error : function(XMLHttpRequest, textStatus, errorThrown) {
+					message.html('{$Think.lang.10010}');
+				}
+            });
+     	}
+	</script>
+</body>
 </html>

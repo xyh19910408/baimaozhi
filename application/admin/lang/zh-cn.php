@@ -16,6 +16,11 @@ return [
     'cancel'                         => '取消',
     'save'                           => '保存',
     'log_out'                        => '注销登陆',
+    'background_landing'             => '后台登陆',
+    'user_name'                      => '用户名',
+    'password'                       => '密码',
+    'verification_code'              => '验证码',
+    'landing'                        => '立即登陆',
 
     //admin
     'admin_id'                       => '管理员ID',

@@ -30,3 +30,14 @@ function get_random_code($num = 8){
     }
     return $str;
 }
+
+/**
+ * 实例化Model logic
+ * @param string    $name Model名称
+ * @param string    $layer 业务层名称
+ * @param bool      $appendSuffix 是否添加类名后缀
+ * @return \think\Model
+ */
+function model_logic($name = '', $layer = 'logic', $appendSuffix = false){
+	return model($name, $layer, $appendSuffix);
+}

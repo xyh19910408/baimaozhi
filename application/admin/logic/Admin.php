@@ -31,7 +31,7 @@ class Admin
                 $admin_info = $this->find($where);
                 if(!empty($admin_info)){
                     Db::rollback();
-                    return '100011';
+                    return '11011';
                 }
                 $params['admin_time'] = time();
                 $params['admin_state'] = 1;
@@ -39,7 +39,7 @@ class Admin
                     Db::rollback();
                     return $validate->getError();
                 }
-                $r = AdminModel::create($params)->validate(true);
+                $r = AdminModel::create($params);
             }else{
                 if(!$validate->scene('edit')->check($params)){
                     Db::rollback();

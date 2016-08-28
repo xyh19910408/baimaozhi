@@ -18,13 +18,13 @@ class Index extends Base
     //登陆
     public function login()
     {
-    	$this->assign('public_static_dir', config('public_static_dir'));//public资源存放目录
+    	if($this->request->isPost()){
+            $params = $this->request->post();
+            $LoginLogic = model_logic('Login');
+            $code = $LoginLogic->adminLogin($params);
+            return get_ajax_arr($code, '', url('Index/index'));
+    	}
+    	$this->assign('bjui_static_dir', config('bjui_static_dir'));//public资源存放目录
     	return $this->fetch();
-    }
-
-    //验证码
-    public function vertify()
-    {
-
     }
 }
