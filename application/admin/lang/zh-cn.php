@@ -21,6 +21,8 @@ return [
     'password'                       => '密码',
     'verification_code'              => '验证码',
     'landing'                        => '立即登陆',
+    'close'                          => '关闭',
+    'open'                           => '开启',
 
     //admin
     'admin_id'                       => '管理员ID',

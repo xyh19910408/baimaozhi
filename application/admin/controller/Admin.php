@@ -18,7 +18,7 @@ class Admin extends Base
         //获取搜索条件
         $where = $AdminLogic->getWhere($page_form);
         //获取表数据列表
-        $data_list = $AdminLogic->findAll($where, $order, $page);
+        $data_list = $AdminLogic->findAllHandle($where, $order, $page);
         //总数
         $data_count = $AdminLogic->count($where);
 

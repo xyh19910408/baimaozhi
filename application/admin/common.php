@@ -28,3 +28,12 @@ function get_ajax_arr($code = 10002, $tabid = '', $data = [], $closeCurrent = 0)
 	if(!empty($data)) $msg['data'] = $data;
 	return json($msg);
 }
+
+/**
+ * 处理unix时间
+ * @param  [type] $time unix时间
+ * @return [type]       [description]
+ */
+function handle_unix_time($unix_time){
+	return date('Y-m-d H:i:s', $unix_time);
+}

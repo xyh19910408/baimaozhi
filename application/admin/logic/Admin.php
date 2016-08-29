@@ -71,6 +71,15 @@ class Admin
         return $data_list;
     }
 
+    //处理后的列表
+    public function findAllHandle($where, $order, $page){
+        $data_list = $this->findAll($where, $order, $page);
+        foreach ($data_list as &$value) {
+            $value = $this->handleData($value);
+        }
+        return $data_list;
+    }
+
     //获取条件
     public function getWhere($params){
         $where = [];
@@ -89,6 +98,13 @@ class Admin
      */
     public function find($where){
         $admin_info = AdminModel::get($where);
+        return $admin_info;
+    }
+
+    //处理后的单项
+    public function findHandle($where){
+        $admin_info = $this->find($where);
+        $admin_info = $this->handleData($admin_info);;
         return $admin_info;
     }
 
@@ -116,5 +132,30 @@ class Admin
         }
         $admin_info->delete();
         return '9999';
+    }
+
+    /**
+     * 获取管理员状态信息
+     * @param  [type] $key 状态
+     * @return [type]      [description]
+     */
+    public function getAdminStateAttr($key){
+        $adminState[0] = lang('close');
+        $adminState[1] = lang('open');
+        if(isset($key)){
+            return $adminState[$key];
+        }
+        return $adminState;
+    }
+
+    /**
+     * 处理数据
+     * @param  [type] $data 管理员数据
+     * @return [type]       [description]
+     */
+    public function handleData($data){
+        $data['admin_time_attr'] = handle_unix_time($data['admin_time']);
+        $data['admin_state_attr'] = $this->getAdminStateAttr($data['admin_state']);
+        return $data;
     }
 }

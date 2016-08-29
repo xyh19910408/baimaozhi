@@ -20,10 +20,10 @@ class Base extends Controller
         $request = request();
         $controller_name = strtolower($request->controller());
         $action_name = strtolower($request->action());
-        $controller_action_name = $controller_name . '/' . $action_name;
+        $controller_action = $controller_name . '/' . $action_name;
 
         //过滤不需要登陆的行为
-        if(in_array($controller_action_name, config('no_login_behavior'))){
+        if(in_array($controller_action, config('no_login_behavior'))){
             return;
         }
 
@@ -33,6 +33,7 @@ class Base extends Controller
         if(empty($admin_info)){
             $this->redirect('Index/login');
         }
+        $this->assign('admin_info', $admin_info);
     }
 
     /**
