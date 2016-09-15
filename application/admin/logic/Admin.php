@@ -1,10 +1,11 @@
 <?php
 namespace app\admin\logic;
 
+use app\admin\logic\Base;
 use think\Db;
 use app\admin\model\Admin as AdminModel;
 
-class Admin
+class Admin extends Base
 {
     /**
      * 保存
