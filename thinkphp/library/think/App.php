@@ -12,6 +12,7 @@
 namespace think;
 
 use think\Config;
+use think\Env;
 use think\Exception;
 use think\exception\HttpException;
 use think\exception\HttpResponseException;
@@ -79,6 +80,17 @@ class App
         is_null($request) && $request = Request::instance();
 
         $config = self::initCommon();
+        if (defined('BIND_MODULE')) {
+            // 模块/控制器绑定
+            BIND_MODULE && Route::bind(BIND_MODULE);
+        } elseif ($config['auto_bind_module']) {
+            // 入口自动绑定
+            $name = pathinfo($request->baseFile(), PATHINFO_FILENAME);
+            if ($name && 'index' != $name && is_dir(APP_PATH . $name)) {
+                Route::bind($name);
+            }
+        }
+
         $request->filter($config['default_filter']);
         try {
 
@@ -102,8 +114,13 @@ class App
             // 记录当前调度信息
             $request->dispatch($dispatch);
 
-            // 记录路由信息
-            self::$debug && Log::record('[ ROUTE ] ' . var_export($dispatch, true), 'info');
+            // 记录路由和请求信息
+            if (self::$debug) {
+                Log::record('[ ROUTE ] ' . var_export($dispatch, true), 'info');
+                Log::record('[ HEADER ] ' . var_export($request->header(), true), 'info');
+                Log::record('[ PARAM ] ' . var_export($request->param(), true), 'info');
+            }
+
             // 监听app_begin
             Hook::listen('app_begin', $dispatch);
 
@@ -118,15 +135,15 @@ class App
                     break;
                 case 'controller':
                     // 执行控制器操作
-                    $data = Loader::action($dispatch['controller'], $dispatch['params']);
+                    $data = Loader::action($dispatch['controller']);
                     break;
                 case 'method':
                     // 执行回调方法
-                    $data = self::invokeMethod($dispatch['method'], $dispatch['params']);
+                    $data = self::invokeMethod($dispatch['method']);
                     break;
                 case 'function':
                     // 执行闭包
-                    $data = self::invokeFunction($dispatch['function'], $dispatch['params']);
+                    $data = self::invokeFunction($dispatch['function']);
                     break;
                 case 'response':
                     $data = $dispatch['response'];
@@ -156,11 +173,6 @@ class App
         // 监听app_end
         Hook::listen('app_end', $response);
 
-        // Trace调试注入
-        if (Config::get('app_trace')) {
-            Debug::inject($response);
-        }
-
         return $response;
     }
 
@@ -169,12 +181,11 @@ class App
      * @access public
      * @param array|string  $dispatch 调度信息
      * @param string        $type 调度类型
-     * @param array         $params 参数
      * @return void
      */
-    public static function dispatch($dispatch, $type = 'module', $params = [])
+    public static function dispatch($dispatch, $type = 'module')
     {
-        self::$dispatch = ['type' => $type, $type => $dispatch, 'params' => $params];
+        self::$dispatch = ['type' => $type, $type => $dispatch];
     }
 
     /**
@@ -202,10 +213,6 @@ class App
      */
     public static function invokeMethod($method, $vars = [])
     {
-        if (empty($vars)) {
-            // 自动获取请求变量
-            $vars = Request::instance()->param();
-        }
         if (is_array($method)) {
             $class   = is_object($method[0]) ? $method[0] : new $method[0];
             $reflect = new \ReflectionMethod($class, $method[1]);
@@ -226,10 +233,19 @@ class App
      * @param array             $vars    变量
      * @return array
      */
-    private static function bindParams($reflect, $vars)
+    private static function bindParams($reflect, $vars = [])
     {
+        if (empty($vars)) {
+            // 自动获取请求变量
+            if (Config::get('url_param_type')) {
+                $vars = Request::instance()->route();
+            } else {
+                $vars = Request::instance()->param();
+            }
+        }
         $args = [];
         // 判断数组类型 数字数组时按顺序绑定参数
+        reset($vars);
         $type = key($vars) === 0 ? 1 : 0;
         if ($reflect->getNumberOfParameters() > 0) {
             $params = $reflect->getParameters();
@@ -238,7 +254,12 @@ class App
                 $class = $param->getClass();
                 if ($class) {
                     $className = $class->getName();
-                    $args[]    = method_exists($className, 'instance') ? $className::instance() : new $className();
+                    if (isset($vars[$name]) && $vars[$name] instanceof $className) {
+                        $args[] = $vars[$name];
+                        unset($vars[$name]);
+                    } else {
+                        $args[] = method_exists($className, 'instance') ? $className::instance() : new $className();
+                    }
                 } elseif (1 == $type && !empty($vars)) {
                     $args[] = array_shift($vars);
                 } elseif (0 == $type && isset($vars[$name])) {
@@ -314,7 +335,7 @@ class App
         $actionName = $convert ? strtolower($actionName) : $actionName;
 
         // 设置当前请求的控制器、操作
-        $request->controller($controller)->action($actionName);
+        $request->controller(Loader::parseName($controller, 1))->action($actionName);
 
         // 监听module_init
         Hook::listen('module_init', $request);
@@ -322,7 +343,7 @@ class App
         try {
             $instance = Loader::controller($controller, $config['url_controller_layer'], $config['controller_suffix'], $config['empty_controller']);
             if (is_null($instance)) {
-                throw new HttpException(404, 'controller not exists:' . $controller);
+                throw new HttpException(404, 'controller not exists:' . Loader::parseName($controller, 1));
             }
             // 获取当前操作名
             $action = $actionName . $config['action_suffix'];
@@ -360,7 +381,7 @@ class App
             self::$suffix = $config['class_suffix'];
 
             // 应用调试模式
-            self::$debug = Config::get('app_debug');
+            self::$debug = Env::get('app_debug', Config::get('app_debug'));
             if (!self::$debug) {
                 ini_set('display_errors', 'Off');
             } elseif (!IS_CLI) {
@@ -374,7 +395,7 @@ class App
                 }
             }
 
-            // 应用命名空间
+            // 注册应用命名空间
             self::$namespace = $config['app_namespace'];
             Loader::addNamespace($config['app_namespace'], APP_PATH);
             if (!empty($config['root_namespace'])) {
@@ -424,11 +445,6 @@ class App
             // 加载模块配置
             $config = Config::load(CONF_PATH . $module . 'config' . CONF_EXT);
 
-            // 加载应用状态配置
-            if ($config['app_status']) {
-                $config = Config::load(CONF_PATH . $module . $config['app_status'] . CONF_EXT);
-            }
-
             // 读取扩展配置文件
             if ($config['extra_config_list']) {
                 foreach ($config['extra_config_list'] as $name => $file) {
@@ -437,9 +453,9 @@ class App
                 }
             }
 
-            // 加载别名文件
-            if (is_file(CONF_PATH . $module . 'alias' . EXT)) {
-                Loader::addClassMap(include CONF_PATH . $module . 'alias' . EXT);
+            // 加载应用状态配置
+            if ($config['app_status']) {
+                $config = Config::load(CONF_PATH . $module . $config['app_status'] . CONF_EXT);
             }
 
             // 加载行为扩展文件
