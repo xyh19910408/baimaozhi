@@ -1,9 +1,9 @@
 <?php
 namespace app\admin\model;
 
-use think\Model;
+use app\base\model\BaseAdmin;
 //管理员
-class Admin extends Model
+class Admin extends BaseAdmin
 {
 	
 }
