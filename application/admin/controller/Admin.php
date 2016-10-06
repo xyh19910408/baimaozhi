@@ -11,20 +11,24 @@ class Admin extends Base
     //列表
     public function adminList()
     {
-        $order = $page = $where = null;
-        //获取列表页表单中的搜索参数
-        list($page_form, $order, $page) = $this->getPageForm($this->default_admin);
-        $AdminLogic = model_logic('Admin');
-        //获取搜索条件
-        $where = $AdminLogic->getWhere($page_form);
-        //获取表数据列表
-        $data_list = $AdminLogic->findAllHandle($where, $order, $page);
-        //总数
-        $data_count = $AdminLogic->count($where);
+        $AdminService = base_service('Admin');
+        $page = '1,30';
+        $data_list = $AdminService->findAll($where, $order, $page);
 
-        $this->assign('page_form', $page_form); //搜索条件
+        // $order = $page = $where = null;
+        // //获取列表页表单中的搜索参数
+        // list($page_form, $order, $page) = $this->getPageForm($this->default_admin);
+        // $AdminLogic = model_logic('Admin');
+        // //获取搜索条件
+        // $where = $AdminLogic->getWhere($page_form);
+        // //获取表数据列表
+        // $data_list = $AdminLogic->findAllHandle($where, $order, $page);
+        // //总数
+        // $data_count = $AdminLogic->count($where);
+
+        // $this->assign('page_form', $page_form); //搜索条件
         $this->assign('data_list', $data_list); //表数据列表
-        $this->assign('data_count', $data_count); //总数
+        //$this->assign('data_count', $data_count); //总数
         return $this->fetch();
     }
 

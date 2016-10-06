@@ -1,8 +1,8 @@
 <?php
 namespace app\base\model;
-use app\base\model\Base;
+use app\base\model\BaseModel;
 //admin基本
-class Admin extends Base
+class Admin extends BaseModel
 {
 	
 }

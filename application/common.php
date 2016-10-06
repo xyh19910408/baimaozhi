@@ -1,6 +1,6 @@
 <?php
 // 应用公共文件
-
+use think\Loader;
 /**
  * 加密密码
  * @param  [type] $password 密码
@@ -32,6 +32,18 @@ function get_random_code($num = 8){
 }
 
 /**
+ * 实例化Model
+ * @param  string  $name         Model名称
+ * @param  string  $layer        业务层名称
+ * @param  boolean $appendSuffix 是否添加类名后缀
+ * @param  string  $common       公共模块名
+ * @return [type]                [description]
+ */
+function loader_model($name = '', $layer = 'model', $appendSuffix = false, $common = 'base'){
+	return Loader::model($name, $layer, $appendSuffix, $common);
+}
+
+/**
  * 实例化Model logic
  * @param string    $name Model名称
  * @param string    $layer 业务层名称
@@ -40,4 +52,27 @@ function get_random_code($num = 8){
  */
 function model_logic($name = '', $layer = 'logic', $appendSuffix = false){
 	return model($name, $layer, $appendSuffix);
+}
+
+/**
+ * 实例化Model service
+ * @param string    $name service名称
+ * @param string    $layer 业务层名称
+ * @param bool      $appendSuffix 是否添加类名后缀
+ * @param string    $common       公共模块名
+ * @return \think\Model
+ */
+function model_service($name = '', $layer = 'service', $appendSuffix = false){
+	return model_logic($name, $layer, $appendSuffix);
+}
+
+/**
+ * 实例化Base service
+ * @param string    $name service名称
+ * @param string    $layer 业务层名称
+ * @param bool      $appendSuffix 是否添加类名后缀
+ * @return \think\Model
+ */
+function base_service($name = ''){
+	return model_service('base' . DS . $name);
 }

@@ -374,10 +374,12 @@ class Loader
             $module = Request::instance()->module();
         }
         $class = self::parseClass($module, $layer, $name, $appendSuffix);
+        var_dump($class);
         if (class_exists($class)) {
             $model = new $class();
         } else {
             $class = str_replace('\\' . $module . '\\', '\\' . $common . '\\', $class);
+            var_dump($class);
             if (class_exists($class)) {
                 $model = new $class();
             } else {
