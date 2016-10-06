@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "e562cb4080158c0cd76e07f7275a828cb72b4f7f"
+                "reference": "ebc015d62003964edfc641076b709b83ba2db363"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/e562cb4080158c0cd76e07f7275a828cb72b4f7f",
-                "reference": "e562cb4080158c0cd76e07f7275a828cb72b4f7f",
+                "url": "https://api.github.com/repos/top-think/framework/zipball/ebc015d62003964edfc641076b709b83ba2db363",
+                "reference": "ebc015d62003964edfc641076b709b83ba2db363",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2016-09-17 03:27:35"
+            "time": "2016-10-03 06:58:35"
         },
         {
             "name": "topthink/think-captcha",
@@ -92,16 +92,16 @@
         },
         {
             "name": "topthink/think-installer",
-            "version": "v1.0.5",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/think-installer.git",
-                "reference": "6fbab3ed12ce31a455c0f62aac25afe39ec1499a"
+                "reference": "ae50760ebd7c687c7a8573db2cfa94a41e5100e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-installer/zipball/6fbab3ed12ce31a455c0f62aac25afe39ec1499a",
-                "reference": "6fbab3ed12ce31a455c0f62aac25afe39ec1499a",
+                "url": "https://api.github.com/repos/top-think/think-installer/zipball/ae50760ebd7c687c7a8573db2cfa94a41e5100e3",
+                "reference": "ae50760ebd7c687c7a8573db2cfa94a41e5100e3",
                 "shasum": ""
             },
             "require": {
@@ -129,7 +129,7 @@
                     "email": "448901948@qq.com"
                 }
             ],
-            "time": "2016-07-29 10:04:04"
+            "time": "2016-09-23 04:04:44"
         }
     ],
     "packages-dev": [],
