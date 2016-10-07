@@ -33,8 +33,8 @@
 			<tr data-id="1">
                 <td>{$vo.admin_id}</td>
                 <td>{$vo.admin_username}</td>
-                <td>{$vo.admin_time}</td>
-                <td>{$vo.admin_state}</td>
+                <td>{$vo.admin_time_attr}</td>
+                <td>{$vo.admin_state_attr}</td>
                 <td>
                     <a href="{:url('admin/adminEdit',['id'=>$vo.admin_id])}" class="btn btn-green" data-toggle="navtab" data-id="admin-adminEdit" data-reload-warn="{$Think.lang.10005}" data-title="{$Think.lang.edit}" data-icon="edit"><i class="fa fa-edit"></i> {$Think.lang.edit}</a>
                     <a href="{:url('adminDel',['id'=>$vo.admin_id])}" class="btn btn-red" data-toggle="doajax" data-confirm-msg="{$Think.lang.10006}"  data-icon="undo"><i class="fa fa-undo"></i> {$Think.lang.delete}</a>

@@ -1,8 +1,9 @@
 <?php
-namespace app\base\logic;
+namespace app\common\model;
+
 use think\Model;
 //基本
 class Base extends Model
 {
-	
+
 }
