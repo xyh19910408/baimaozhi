@@ -5,5 +5,7 @@ use app\common\controller\Base as ControllerBase;
 //admin基本
 class Base extends ControllerBase
 {
-	
+	public function _initialize(){
+		parent::_initialize();
+	}
 }

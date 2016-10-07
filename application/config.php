@@ -228,7 +228,7 @@ return [
     ],
 
     //验证码配置
-    'captcha'  => [
+    'captcha'                => [
         // 验证码字符集合
         'codeSet'  => '1234567890',
         // 验证码字体大小(px)
@@ -243,5 +243,12 @@ return [
         'length'   => 4,
         // 验证成功后是否重置
         'reset'    => true
+    ],
+
+
+    // 额外需要加载的语言包
+    'extra_lang_path'        => [
+        APP_PATH . 'common' . DS . 'lang'. DS,
+        APP_PATH . 'common' . DS . 'code'. DS,
     ],
 ];
