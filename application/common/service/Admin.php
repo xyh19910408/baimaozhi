@@ -5,7 +5,6 @@ use app\common\service\Base;
 //admin基本
 class Admin extends Base
 {
-	protected $model;
 	public function initialize(){
 		parent::initialize();
 		$this->model = model_logic('Admin');
