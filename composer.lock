@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "ebc015d62003964edfc641076b709b83ba2db363"
+                "reference": "909f494af73287ce8658c0a4c6b10e897fbc13bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/ebc015d62003964edfc641076b709b83ba2db363",
-                "reference": "ebc015d62003964edfc641076b709b83ba2db363",
+                "url": "https://api.github.com/repos/top-think/framework/zipball/909f494af73287ce8658c0a4c6b10e897fbc13bf",
+                "reference": "909f494af73287ce8658c0a4c6b10e897fbc13bf",
                 "shasum": ""
             },
             "require": {
@@ -35,6 +35,11 @@
                 "squizlabs/php_codesniffer": "2.*"
             },
             "type": "think-framework",
+            "autoload": {
+                "psr-4": {
+                    "think\\": "library/think"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
@@ -52,7 +57,7 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2016-10-03 06:58:35"
+            "time": "2016-11-04 11:26:01"
         },
         {
             "name": "topthink/think-captcha",
